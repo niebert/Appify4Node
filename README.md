@@ -33,9 +33,9 @@ It creates a new Appify UI app on your Desktop with the configuration you provid
 
 The UI could be a lot better. Pull requests eagerly accepted.
 
-Appify for Shell
+Appify for Shell [appify4sh.sh](https://github.com/niebert/Appify4Node/blob/master/appify4sh.sh)
 ----------------
-The script [appify4sh.sh](https://github.com/niebert/Appify4Node/blob/master/appify4sh.sh) is a script that creates a MacOSX application from a given shell script. The `appify4sh.sh` takes a shell script as input parameter e.g. `start_my_editor.sh` and creates a MacOSX application from the shell script. The steps in detail are
+The script [appify4sh.sh - added to repository](https://github.com/niebert/Appify4Node/blob/master/appify4sh.sh) is a script that creates a MacOSX application from a given shell script. The `appify4sh.sh` takes a shell script as input parameter e.g. `start_my_editor.sh` and creates a MacOSX application from the shell script. The steps in detail are
 * Check if the script `appify4sh.sh` has got a parameter e.g. `sh appify4sh.sh start_my_editor.sh` 
 * then it checks if the an application with that name already exists, to avoid that you overwrite existing MacOSX applicaations
 * finally it creates a package file for you that defines which application should be started when you click on the generated MacOSX icon is the operating system.
