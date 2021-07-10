@@ -74,7 +74,8 @@ done
 shift "$((OPTIND - 1))"
 
 echo "Now perform the appify process or terminate the script if errors occur"
-# The appify could will be added below this line
+# The appify code will be added below this line
+# PLACE APPIFY CODE HERE and use the variable above
 ```
 
 
