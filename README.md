@@ -33,16 +33,20 @@ The application `Appify UI.app` is a
 The script [appify4sh.sh - added to repository](https://github.com/niebert/Appify4Node/blob/master/appify4sh.sh) is a script that creates a MacOSX application from a given shell script. The `appify4sh.sh` takes a shell script as input parameter e.g. `start_my_editor.sh` and creates a MacOSX application from the shell script. The steps in detail are
 * Check if the script `appify4sh.sh` has got a parameter e.g. 
 ```bash
-      sh appify4sh.sh start_my_editor.sh
+   sh appify4sh.sh start_my_editor.sh
 ```
 * then it checks if the an application with that name already exists, to avoid that you overwrite existing MacOSX applicaations
 * finally it creates a package file for you that defines which application should be started when you click on the generated MacOSX icon is the operating system.
 
 ### Possible Improvements of [`appify4sh.sh`](https://github.com/niebert/Appify4Node/blob/master/appify4sh.sh)
 * provide a second parameter that provides an optional name of the App e.g. 
-    sh appify4sh.sh -s start_my_editor.sh -n "My new Editor"
+```bash
+   sh appify4sh.sh -s start_my_editor.sh -n "My new Editor"
+```
 * provide a third parameter to the script that could define the icon of the App (e.g. a [Creative Commons icon](https://github.com/niebert/icons4menu) and you select e.g. an [editor icon `edit.svg`](https://github.com/niebert/icons4menu#miscellaneous-icons) )
-    sh appify4sh.sh -s start_my_editor.sh -i "/icons4menu/img/icons-svg/edit.svg"
+```bash
+   sh appify4sh.sh -s start_my_editor.sh -i "/icons4menu/img/icons-svg/edit.svg"
+```
 
 ### Handle arguments with a dash parameter
 If you look at the following code you will learn how to handle shell script parameters with a leading dash - e.g. `-i my_icon.svg`
