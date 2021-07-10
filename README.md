@@ -90,7 +90,7 @@ echo "Now perform the appify process or terminate the script if errors occur"
 * the GIST Shell Script Source of the script is https://gist.github.com/mathiasbynens/674099
 * GIST Source Author:  [Matthias Bynens](http://mathiasbynens.be/) https://gist.github.com/mathiasbynens
 * [Matthias Bynens](http://mathiasbynens.be/) version is based on development by [Thomas Aylott](http://subtlegradient.com/) - Copyright (c) - <http://subtlegradient.com/> see also <https://github.com/subtleGradient/Appify-UI>
-* Source of Thomas Aylott's work was modified by [Matthias Bynens](http://mathiasbynens.be/)
+* Source of [Thomas Aylott's](http://subtlegradient.com/) work was modified by [Matthias Bynens](http://mathiasbynens.be/)
 
 Appify UI Node Demo.app
 -----------------------
